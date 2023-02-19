@@ -1,9 +1,11 @@
+@import '../../../../styles.scss';
+
 .maindiv {
     width: 100%;
     height: 65px;
     margin: 0 0 54px;
     padding: 20px 0 0;
-    background-color: #e6ebe0;
+    background-color: $Navbar-Main-Color;
 
     display: flex;
     justify-content: space-between;
@@ -14,7 +16,7 @@
       position:static;
       width: 100%;
       height: 5px;
-      background-color: #9bc1a8;
+      background-color: $Navbar-Secondary-Color;
       margin-top: -54px;
 
     }

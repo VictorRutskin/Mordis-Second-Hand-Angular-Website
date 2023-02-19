@@ -1,11 +1,13 @@
+@import '../../../../styles.scss';
+
 .search-bar {
     width: 132px;
-    height: 36px;
+    height: 33px;
     margin: 15px 10px 35px 15px;
     padding: 9px 10px 9.7px 7.8px;
     border-radius: 10px;
-    box-shadow: 0 0 10px 0 #aeb2aa;
-    background-color: #e6ebe0;
+    box-shadow: 0 0 10px 0 $Box-shadow-color;
+    background-color: $Box-background-color;
 
     display: flex;
     justify-content: space-between;

@@ -1,3 +1,5 @@
+@import '../../../../styles.scss';
+
 .frame {
     width: 125px;
     height: 36px;
@@ -11,9 +13,9 @@
     width: 150px;
     height: 41px;
     padding: 1%;
-    text-shadow: 0 0 10px #aeb2aa;
+    text-shadow: 0 0 10px $Default-Text-Shadow;
     font-family: Roboto;
     font-size: 24px;
     font-weight: 600;
-    color: #3c3c3c;
+    color: $Default-Text-Color;
   }

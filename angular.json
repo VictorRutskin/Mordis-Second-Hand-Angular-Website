@@ -17,6 +17,16 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "styles": [
+              "src/styles.scss",
+              "src/global.scss"
+            ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/styles"
+              ],
+              "prependData": "@import 'global';"
+            },
             "outputPath": "dist/mordis-second-hand",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -28,9 +38,6 @@
             "assets": [
               "src/favicon.ico",
               "src/assets"
-            ],
-            "styles": [
-              "src/styles.scss"
             ],
             "scripts": []
           },
