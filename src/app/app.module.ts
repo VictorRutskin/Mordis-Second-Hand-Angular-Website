@@ -10,10 +10,10 @@ import { NavBarElectronicsComponent } from './Components/Nav-bar-Components/nav-
 import { NavBarFurnitureComponent } from './Components/Nav-bar-Components/nav-bar-furniture/nav-bar-furniture.component';
 import { NavBarOtherComponent } from './Components/Nav-bar-Components/nav-bar-other/nav-bar-other.component';
 import { NavbarInsideTabComponent } from './Components/Nav-bar-Components/navbar-inside-tab/navbar-inside-tab.component';
-import { NavbarHeartComponent } from './navbar-heart/navbar-heart.component';
-import { NavbarManComponent } from './navbar-man/navbar-man.component';
-import { NavbarSearchComponent } from './navbar-search/navbar-search.component';
-import { NavbarAddListingComponent } from './navbar-add-listing/navbar-add-listing.component';
+import { NavbarHeartComponent } from './Components/Nav-bar-Components/navbar-heart/navbar-heart.component';
+import { NavbarManComponent } from './Components/Nav-bar-Components/navbar-man/navbar-man.component';
+import { NavbarSearchComponent } from './Components/Nav-bar-Components/navbar-search/navbar-search.component';
+import { NavbarAddListingComponent } from './Components/Nav-bar-Components/navbar-add-listing/navbar-add-listing.component';
 
 @NgModule({
   declarations: [
