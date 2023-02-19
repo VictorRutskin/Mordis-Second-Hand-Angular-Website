@@ -15,6 +15,7 @@ import { NavbarManComponent } from './Components/Nav-bar-Components/navbar-man/n
 import { NavbarSearchComponent } from './Components/Nav-bar-Components/navbar-search/navbar-search.component';
 import { NavbarAddListingComponent } from './Components/Nav-bar-Components/navbar-add-listing/navbar-add-listing.component';
 import { MainPageComponent } from './Pages/main-page/main-page.component';
+import { MiniIconComponent } from './Components/Mini-icon-components/mini-icon/mini-icon.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { MainPageComponent } from './Pages/main-page/main-page.component';
     NavbarManComponent,
     NavbarSearchComponent,
     NavbarAddListingComponent,
-    MainPageComponent
+    MainPageComponent,
+    MiniIconComponent
   ],
   imports: [
     BrowserModule,
