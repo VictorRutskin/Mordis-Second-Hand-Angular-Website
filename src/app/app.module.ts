@@ -14,6 +14,7 @@ import { NavbarHeartComponent } from './Components/Nav-bar-Components/navbar-hea
 import { NavbarManComponent } from './Components/Nav-bar-Components/navbar-man/navbar-man.component';
 import { NavbarSearchComponent } from './Components/Nav-bar-Components/navbar-search/navbar-search.component';
 import { NavbarAddListingComponent } from './Components/Nav-bar-Components/navbar-add-listing/navbar-add-listing.component';
+import { MainPageComponent } from './Pages/main-page/main-page.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { NavbarAddListingComponent } from './Components/Nav-bar-Components/navba
     NavbarHeartComponent,
     NavbarManComponent,
     NavbarSearchComponent,
-    NavbarAddListingComponent
+    NavbarAddListingComponent,
+    MainPageComponent
   ],
   imports: [
     BrowserModule,
