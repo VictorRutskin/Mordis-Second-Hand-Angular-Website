@@ -1,9 +1,12 @@
-<div class="Ellipse">
-  <div class="Svg">
+
+<div class="Container">
     <img
-      src="../assets/AlImages/casual-wear-svgrepo-com.svg"
+      [src]="SvgPath"
       alt="MORDI'S"
-      class="logo"
+      [ngClass]="ClassValue"
     />
-  </div>
+    <span class="Text">
+      {{InsideText}}
+    </span>
 </div>
+

@@ -18,15 +18,8 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "styles": [
-              "src/styles.scss",
-              "src/global.scss"
-            ],
-            "stylePreprocessorOptions": {
-              "includePaths": [
-                "src/styles"
-              ],
-              "prependData": "@import 'global';"
-            },
+              "src/styles.scss"
+                        ],
             "outputPath": "dist/mordis-second-hand",
             "index": "src/index.html",
             "main": "src/main.ts",

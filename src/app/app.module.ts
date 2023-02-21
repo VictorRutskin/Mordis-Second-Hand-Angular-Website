@@ -16,6 +16,12 @@ import { NavbarSearchComponent } from './Components/Nav-bar-Components/navbar-se
 import { NavbarAddListingComponent } from './Components/Nav-bar-Components/navbar-add-listing/navbar-add-listing.component';
 import { MainPageComponent } from './Pages/main-page/main-page.component';
 import { MiniIconComponent } from './Components/Mini-icon-components/mini-icon/mini-icon.component';
+import { MiniIconClothingComponent } from './Components/Mini-icon-components/mini-icon-clothing/mini-icon-clothing.component';
+import { MiniIconElectronicsComponent } from './Components/Mini-icon-components/mini-icon-electronics/mini-icon-electronics.component';
+import { MiniIconOtherComponent } from './Components/Mini-icon-components/mini-icon-other/mini-icon-other.component';
+import { MiniIconFurnitureComponent } from './Components/Mini-icon-components/mini-icon-furniture/mini-icon-furniture.component';
+import { MiniIconTableComponent } from './Components/Mini-icon-components/mini-icon-table/mini-icon-table.component';
+import { MainPageSmallTextComponent } from './Components/Text-Components/main-page-small-text/main-page-small-text.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +38,13 @@ import { MiniIconComponent } from './Components/Mini-icon-components/mini-icon/m
     NavbarSearchComponent,
     NavbarAddListingComponent,
     MainPageComponent,
-    MiniIconComponent
+    MiniIconComponent,
+    MiniIconClothingComponent,
+    MiniIconElectronicsComponent,
+    MiniIconOtherComponent,
+    MiniIconFurnitureComponent,
+    MiniIconTableComponent,
+    MainPageSmallTextComponent
   ],
   imports: [
     BrowserModule,

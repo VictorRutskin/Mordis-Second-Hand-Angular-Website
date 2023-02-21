@@ -1,14 +1,59 @@
-.Ellipse{
-    width: 104px;
-    height: 104px;
-    padding: 16px 11px 16.8px 10px;
-    background-color: #9bc1a8;
+  .Container {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 70px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    background: #9bc1a8;
+    border-radius: 50%;
   }
 
-  .Svg {
-    width: 83px;
-    height: 71.2px;
-    flex-grow: 0;
-    padding: 14.6px 32.7px 40.5px 34px;
-    background-color: #e6ebe0;
+  .logo{
+    margin-bottom: 5px;
+    height: 100px;
+    width: 100px;
+  }
+
+  .Text {
+    width: 104px;
+    height: 31px;
+    margin: 104px 0 0;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3c3c3c;
+  }
+
+  .logo-Clothing {
+    margin-bottom: 5px;
+    padding: 5px;
+    height: 90px;
+    width: 90px;
+  }
+
+  .logo-Electronics {
+    margin-bottom: 5px;
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+  }
+
+  .logo-Furniture {
+    margin-bottom: 5px;
+    padding: 15px;
+    height: 70px;
+    width: 70px;
+  }
+
+  .logo-Other {
+    margin-bottom: 5px;
+    padding: 3px;
+    height: 90px;
+    width: 90px;
   }
