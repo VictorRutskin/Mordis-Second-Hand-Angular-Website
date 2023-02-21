@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class MiniIconOtherComponent {
   Text="Other";
-  Path="../assets/AlImages/bicycle-bike-svgrepo-com_1.svg";
+  Path="../assets/SVG's/bicycle-bike-svgrepo-com_1.svg";
   Class="logo-Other";
 }

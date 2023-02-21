@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class MiniIconFurnitureComponent {
   Text="Furniture";
-  Path="../assets/AlImages/furniture-svgrepo-com.svg";
+  Path="../assets/SVG's/furniture-svgrepo-com.svg";
   Class="logo-Furniture";
 }
