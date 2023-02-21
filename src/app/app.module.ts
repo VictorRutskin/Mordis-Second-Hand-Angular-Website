@@ -22,6 +22,10 @@ import { MiniIconOtherComponent } from './Components/Mini-icon-components/mini-i
 import { MiniIconFurnitureComponent } from './Components/Mini-icon-components/mini-icon-furniture/mini-icon-furniture.component';
 import { MiniIconTableComponent } from './Components/Mini-icon-components/mini-icon-table/mini-icon-table.component';
 import { MainPageSmallTextComponent } from './Components/Text-Components/main-page-small-text/main-page-small-text.component';
+import { MainPageTitle1Component } from './Components/Text-Components/main-page-title1/main-page-title1.component';
+import { MainPageTitle2Component } from './Components/Text-Components/main-page-title2/main-page-title2.component';
+import { ItemCouruselComponent } from './Components/Item-Courusel-Components/item-courusel/item-courusel.component';
+import { SingleCouruselItemComponent } from './Components/Item-Courusel-Components/single-courusel-item/single-courusel-item.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +48,11 @@ import { MainPageSmallTextComponent } from './Components/Text-Components/main-pa
     MiniIconOtherComponent,
     MiniIconFurnitureComponent,
     MiniIconTableComponent,
-    MainPageSmallTextComponent
+    MainPageSmallTextComponent,
+    MainPageTitle1Component,
+    MainPageTitle2Component,
+    ItemCouruselComponent,
+    SingleCouruselItemComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,5 @@
+@import '../../../../styles.scss';
+
   .Container {
     width: 100px;
     height: 100px;
@@ -5,7 +7,7 @@
     margin: 70px;
     margin-top: 0px;
     margin-bottom: 60px;
-    background: #9bc1a8;
+    background: $Icons-Main-Color;
     border-radius: 50%;
   }
 
@@ -27,7 +29,7 @@
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
-    color: #3c3c3c;
+    color: $Default-Text-Color;
   }
 
   .logo-Clothing {

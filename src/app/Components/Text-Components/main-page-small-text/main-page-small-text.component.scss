@@ -1,6 +1,5 @@
-.text{
-
-    
+@import '../../../../styles.scss';
+.text{  
     width: 722px;
     height: 308px;
     margin: 34px 101px 42px 138px;
@@ -12,12 +11,11 @@
     line-height: 1.24;
     letter-spacing: normal;
     text-align: left;
-    color: #666;
-font-weight: 600;
+    color: $Small-Text-Color;
+    font-weight: 600;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     justify-items: flex-start;
     align-items: center;
-  
 }

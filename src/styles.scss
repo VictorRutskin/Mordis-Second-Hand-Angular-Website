@@ -1,16 +1,21 @@
 // Text
 $Default-Text-Color:#3c3c3c;
 $Default-Text-Shadow:#aeb2aa;
+$Small-Text-Color: #666;
 
-//NavBar
+// NavBar
 $Navbar-Main-Color:#e6ebe0;
 $Navbar-Secondary-Color:#9bc1a8;
 $Box-shadow-color: #aeb2aa;
 $Box-background-color: #e6ebe0;
 
+// Icons
+$Icons-Main-Color:#9bc1a8;
+$Icons-Secondary-Color:#e6ebe0;
 
-$primary-color: #007bff;
-$secondary-color: #6c757d;
+// Global
+$primary-color: #e6ebe0;
+$secondary-color: #9bc1a8;
 $success-color: #28a745;
 $danger-color: #dc3545;
 $warning-color: #ffc107;
@@ -20,8 +25,8 @@ $dark-color: #343a40;
 
 // Font sizes
 $small-font-size: 12px;
-$medium-font-size: 16px;
-$large-font-size: 20px;
+$medium-font-size: 30px;
+$large-font-size: 50px;
 
 // Other values
 $border-radius: 5px;
@@ -29,5 +34,4 @@ $max-content-width: 1200px;
 
 body{
     background-color: #e6ebe0;
-
 }
