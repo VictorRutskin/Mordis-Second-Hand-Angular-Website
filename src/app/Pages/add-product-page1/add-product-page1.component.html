@@ -1,20 +1,29 @@
 <div class="parent-container">
-    <app-main-page-title2 [text]="semititle1text"></app-main-page-title2>
-    <span>
-      <img src="..\assets\Images\MordisLogo.png" alt="MORDI'S" class="logo" />
-    </span>
-    <app-main-page-title2 [text]="semititle2text"></app-main-page-title2>
-  </div>
-  <div>
-    <app-progress-circles></app-progress-circles>
-  </div>
-  <div>
-    <!-- app.component.html -->
-<app-form 
-title="Tell us about your item" 
-[fields]="['Name', 'Category', 'Condition','Price', 'Location', 'Description']" 
-[formData]="userForm">
-</app-form>
-
-  </div>
-  
+  <app-main-page-title2 [text]="semititle1text"></app-main-page-title2>
+  <span>
+    <img src="..\assets\Images\MordisLogo.png" alt="MORDI'S" class="logo" />
+  </span>
+  <app-main-page-title2 [text]="semititle2text"></app-main-page-title2>
+</div>
+<div class="flex-container">
+  <app-progress-circles></app-progress-circles>
+</div>
+<div class="form">
+  <!-- app.component.html -->
+  <app-form
+    title="Tell us about your item"
+    [fields]="[
+      'Name',
+      'Category',
+      'Condition',
+      'Price',
+      'Location',
+      'Description'
+    ]"
+    [formData]="userForm"
+  >
+  </app-form>
+</div>
+<div>
+  <app-form-continue-btn> </app-form-continue-btn>
+</div>

@@ -1,7 +1,10 @@
 .parent-container {
     display: flex;
-    align-items: center; /* optional: align items vertically in the center */
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
   }
+  
   
   .logo {
     width: 230px;
@@ -9,3 +12,23 @@
     margin: -10px -100px 0px -35px; /* optional: add some space between elements */
   }
   
+  .flex-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .app-progress-circles {
+    margin-right: 20px;
+  }
+  
+  div > app-form {
+    width: 100%;
+  }
+
+  .form{
+    position: relative;
+    bottom: 600px;
+    left: 30%;
+    width: 20%;
+    max-width: 400px;
+  }

@@ -9,7 +9,10 @@ export class AddProductPage1Component {
 
   semititle1text = "WANT TO JOIN THE ";
   semititle2text = " MOVMENT?";
-  
+
   userForm = {};
+
+
+  
 
 }

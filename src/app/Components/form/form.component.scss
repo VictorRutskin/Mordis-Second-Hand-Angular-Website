@@ -18,6 +18,7 @@ h1{
     width: 80px;
     height: 35px;
     margin-left:50px ;
+    margin-bottom: 6px;
     font-family: Roboto;
     font-size: 30px;
     font-weight: normal;
@@ -31,11 +32,13 @@ h1{
 
 
   .input {
-    width: 491px;
-    height: 65.6px;
+    width: 400px;
+    height: 40px;
     padding: 15px 309.2px 15.6px 16.9px;
     margin-left:50px ;
     border-radius: 7.5px;
     border: solid 5.6px $third-color;
     background-color: $primary-color;
+    font-size: 50px;
+    color: $Default-Text-Color;
   }
