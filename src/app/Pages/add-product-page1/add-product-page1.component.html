@@ -5,25 +5,31 @@
   </span>
   <app-main-page-title2 [text]="semititle2text"></app-main-page-title2>
 </div>
-<div class="flex-container">
-  <app-progress-circles></app-progress-circles>
+<div class="subtext">
+    <app-small-text-template [Text]="subtitletext1"></app-small-text-template>
+    <app-small-text-template [Text]="subtitletext2"></app-small-text-template>
 </div>
-<div class="form">
-  <!-- app.component.html -->
-  <app-form
-    title="Tell us about your item"
-    [fields]="[
-      'Name',
-      'Category',
-      'Condition',
-      'Price',
-      'Location',
-      'Description'
-    ]"
-    [formData]="userForm"
-  >
-  </app-form>
+<div class="all-container">
+    <div class="circles-container">
+        <app-progress-circles></app-progress-circles>
+      </div>
+      <div class="form">
+        <!-- app.component.html -->
+        <app-form
+          title="Tell us about your item"
+          [fields]="[
+            'Name',
+            'Category',
+            'Condition',
+            'Price',
+            'Location',
+            'Description'
+          ]"
+          [formData]="userForm"
+        >
+        </app-form>
+      </div>  
 </div>
-<div>
-  <app-form-continue-btn> </app-form-continue-btn>
-</div>
+<div class="button">
+    <app-form-continue-btn> </app-form-continue-btn>
+  </div>

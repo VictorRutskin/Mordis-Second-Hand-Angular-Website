@@ -2,21 +2,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: -30px;
+    margin-left: 100px;
   }
-  
   
   .logo {
     width: 230px;
     height: auto;
-    margin: -10px -100px 0px -35px; /* optional: add some space between elements */
+    margin: -10px -100px 0px -35px;
   }
   
-  .flex-container {
+  .circles-container {
+    position: absolute;
     display: flex;
     align-items: center;
   }
-
+  
   .app-progress-circles {
     margin-right: 20px;
   }
@@ -24,11 +25,39 @@
   div > app-form {
     width: 100%;
   }
-
-  .form{
+  
+  .form {
+    margin-top: 80px;
     position: relative;
-    bottom: 600px;
-    left: 30%;
-    width: 20%;
-    max-width: 400px;
+    width: 500px;
+    max-width: 500px;
+    margin: auto;
+    left: 50%;
+    margin-left: -250px;
   }
+  
+  
+  .button{
+    margin-top: 80px;
+    position: relative;
+    width: 300px;
+    max-width: 300px;
+    margin: auto;
+    left: 51%;
+    margin-left: -150px;
+ }
+  
+  .subtext{
+    margin-top: 80px;
+    position: relative;
+    width: 1000px;
+    max-width: 1000px;
+    margin: auto;
+    left: 50%;
+    margin-left: -500px;
+  }
+  
+  
+.all-container{
+    display: flex;
+}

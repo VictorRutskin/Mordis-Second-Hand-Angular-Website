@@ -9,10 +9,10 @@ export class AddProductPage1Component {
 
   semititle1text = "WANT TO JOIN THE ";
   semititle2text = " MOVMENT?";
+  subtitletext1 ="We are so happy you want to give your gentley used items a second life.";
+  subtitletext2 ="Let’s get started!";
 
-  userForm = {};
 
-
-  
+  userForm = {};  
 
 }

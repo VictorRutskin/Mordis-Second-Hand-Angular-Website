@@ -33,7 +33,7 @@ import { ProgressCirclesComponent } from './Components/progress-circles/progress
 import { FormComponent } from './Components/form/form.component';
 import { FormsModule } from '@angular/forms';
 import { FormContinueBTNComponent } from './Components/Buttons/form-continue-btn/form-continue-btn.component';
-import { SmallTextTemplateComponent } from './small-text-template/small-text-template.component';
+import { SmallTextTemplateComponent } from './Components/Text-Components/small-text-template/small-text-template.component';
 
 @NgModule({
   declarations: [

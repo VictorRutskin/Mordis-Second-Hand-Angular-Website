@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
 
 @Component({
   selector: 'app-small-text-template',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./small-text-template.component.scss']
 })
 export class SmallTextTemplateComponent {
-
+@Input() Text ="add text";
 }
