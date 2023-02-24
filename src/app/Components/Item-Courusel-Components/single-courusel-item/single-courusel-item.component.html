@@ -1,16 +1,20 @@
 <div class="item-frame">
-  <div class="Image">
-    <img
-    [src]="Image"
-    alt="MORDI'S"
-  />
+  <div class="Image-Container">
+    <img [src]="Image" class="Image" />
     <div class="Heart-Container">
-      <div class="Heart"></div>
+      <img src="../assets/SVG's/heart-svgrepo-com.svg" class="Heart" />
     </div>
   </div>
-  <span class="product-name"> iPhone 13 pro </span>
-  <span class="description"> Selling my iPhone, brand new conditi... </span>
-  <span class="price"> 499$ </span>
-  <span class="BUY"> BUY </span>
+  <span class="product-name"> {{ Title }} </span>
+  <span class="Date"> {{ PostDate }} </span>
+  <div class="description-container">
+    <span class="description"> {{ Desc }} </span>
+  </div>
+  <span class="price"> {{ Price }}$ </span>
+  <button class="BUY-BTN">
+    <span class="BUY">
+      BUY
+    </span>
+  </button>
   <span class="more"> More </span>
 </div>
