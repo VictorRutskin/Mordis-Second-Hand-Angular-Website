@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AddProductPage1Component {
 
+  semititle1text = "WANT TO JOIN THE ";
+  semititle2text = " MOVMENT?";
+  
+  userForm = {};
+
 }

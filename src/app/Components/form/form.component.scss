@@ -1,0 +1,41 @@
+@import '../../../styles.scss';
+h1{
+    width: 392px;
+    height: 41px;
+    margin: 70px 761px 33.9px 56px;
+    font-family: Roboto;
+    font-size: 35px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: $Default-Text-Color;
+  }
+
+  .Text {
+    width: 80px;
+    height: 35px;
+    margin-left:50px ;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: $Default-Text-Color;
+  }
+
+
+  .input {
+    width: 491px;
+    height: 65.6px;
+    padding: 15px 309.2px 15.6px 16.9px;
+    margin-left:50px ;
+    border-radius: 7.5px;
+    border: solid 5.6px $third-color;
+    background-color: $primary-color;
+  }

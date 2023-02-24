@@ -1,0 +1,5 @@
+<h1>{{ title }}</h1>
+<div *ngFor="let field of fields">
+  <p class="Text">{{ field }}:</p>
+    <input class="input" type="text" [(ngModel)]="formData[field]" />
+</div>

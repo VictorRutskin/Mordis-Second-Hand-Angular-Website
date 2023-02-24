@@ -29,6 +29,9 @@ import { SingleCouruselItemComponent } from './Components/Item-Courusel-Componen
 import { AddProductPage1Component } from './Pages/add-product-page1/add-product-page1.component';
 import { AddProductPage2Component } from './Pages/add-product-page2/add-product-page2.component';
 import { AddProductPage3Component } from './Pages/add-product-page3/add-product-page3.component';
+import { ProgressCirclesComponent } from './Components/progress-circles/progress-circles.component';
+import { FormComponent } from './Components/form/form.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -59,8 +62,10 @@ import { AddProductPage3Component } from './Pages/add-product-page3/add-product-
     AddProductPage1Component,
     AddProductPage2Component,
     AddProductPage3Component,
+    ProgressCirclesComponent,
+    FormComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule,FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

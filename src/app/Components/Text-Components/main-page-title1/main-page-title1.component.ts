@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./main-page-title1.component.scss']
 })
 export class MainPageTitle1Component {
-
 }

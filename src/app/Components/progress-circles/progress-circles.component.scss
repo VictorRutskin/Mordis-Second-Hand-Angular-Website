@@ -1,0 +1,66 @@
+.Container {
+    width: 105px;
+    height: 512px;
+    margin: 42px 56px 0.6px 126px;
+    background-color: #e6ebe0;
+    border-radius: 50px;
+  }
+
+.Filled {
+  width: 80px;
+  height: 80px;
+  background-color: #9bc1a8;
+  border-radius: 100px;
+  padding: 20px;
+  border: solid 10px #9bc1a8;
+}
+
+.Empty {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    padding: 20px;
+    border: solid 10px #9bc1a8;
+  }
+
+span {
+    width: 29px;
+    height: 59px;
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #9bc1a8;
+    margin: 0px 0px 0px 20px;
+
+  }
+
+  .filled-text{
+    color: #fff;
+  }
+
+  .Line-1 {
+    width: 0px;
+    height: 100px;
+    margin: 0px 0px 0px 67px;
+    transform: rotate(-180deg);
+    background-color: #e6ebe0;
+    border-style:dashed;
+    border-width: 4px;
+    border-color: #9bc1a8;
+  }
+
+  .Line-2 {
+    width: 0px;
+    height: 100px;
+    margin: 0px 0px 0px 67px;
+    transform: rotate(-180deg);
+    background-color: #e6ebe0;
+    border-style:dashed;
+    border-width: 4px;
+    border-color: #9bc1a8;
+  }
