@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./add-product-page3.component.scss']
 })
 export class AddProductPage3Component {
+  semititle1text = "LAST PART!! ";
+  subtitletext1 ="Now all we need is your details so buyers can contact you proparly.";
+
+
+  userForm = {};  
 
 }

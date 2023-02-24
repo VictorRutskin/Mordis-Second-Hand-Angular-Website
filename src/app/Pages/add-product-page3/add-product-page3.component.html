@@ -1,1 +1,27 @@
-<p>add-product-page3 works!</p>
+<div class="parent-container">
+    <app-main-page-title2 [text]="semititle1text"></app-main-page-title2>
+  </div>
+  <div class="subtext">
+      <app-small-text-template [Text]="subtitletext1"></app-small-text-template>
+  </div>
+  <div class="all-container">
+      <div class="circles-container">
+        <app-progress-circles [MarkedCircle]="3"></app-progress-circles>
+        </div>
+        <div class="form">
+          <!-- app.component.html -->
+          <app-form
+            title=""
+            [fields]="[
+              'Name',
+              'Phone',
+              'Email',
+            ]"
+            [formData]="userForm"
+          >
+          </app-form>
+        </div>  
+  </div>
+  <div class="button">
+      <app-form-continue-btn [text]="'PUBLISH'"> </app-form-continue-btn>
+    </div>

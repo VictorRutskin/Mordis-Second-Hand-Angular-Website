@@ -6,6 +6,7 @@ class Item {
   PostDate: string;
   Publisher: string;
   Location:string;
+  Images: string[];
 
   constructor(
     title: string,
@@ -15,6 +16,7 @@ class Item {
     postDate: string,
     publisher: string,
     location: string,
+    images: string[],
   ) {
     this.Title = title;
     this.Desc = desc;
@@ -23,6 +25,7 @@ class Item {
     this.PostDate = postDate;
     this.Publisher = publisher;
     this.Location = location;    
+    this.Images = images;
   }
 }
 

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-progress-circles',
@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class ProgressCirclesComponent {
 // if value in html = 1 then 1 is marked etc..
-
+@Input() MarkedCircle= 0;
 }

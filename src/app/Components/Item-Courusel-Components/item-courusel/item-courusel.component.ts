@@ -16,6 +16,8 @@ export class ItemCouruselComponent {
       '12/02',
       'Shay Eshel',
       'Afula',
+      ['../assets/Images/ItemsImages/Iphone.png'],
+
     ),
     new Item(
       '  vans x nation...',
@@ -25,6 +27,7 @@ export class ItemCouruselComponent {
       '23/01',
       'Tomer Shevach',
       'Afula',
+      ['../assets/Images/ItemsImages/NationalShoes.png'],
     ),
     new Item(
       '  Vintage night...      ',
@@ -34,6 +37,7 @@ export class ItemCouruselComponent {
       '13/04',
       'Elmory Grunt',
       'Bney Brak',
+      ['../assets/Images/ItemsImages/VintageTableOrSomething.png'],
 
     ),
     new Item(
@@ -44,6 +48,7 @@ export class ItemCouruselComponent {
       '03/11',
       'Israel Israeli',
       'Tel-Aviv',
+      ['../assets/Images/ItemsImages/NationalShoes.png'],
 
     ),
   ];

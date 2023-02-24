@@ -1,13 +1,13 @@
 <div class="Container">
-  <div class="Filled">
-    <span class="filled-text"> 1 </span>
+  <div class="Empty" [class.Filled]="MarkedCircle === 1">
+    <span [class.filled-text]="MarkedCircle === 1"> 1 </span>
   </div>
   <div class="Line-1"></div>
-  <div class="Empty">
-    <span> 2 </span>
+  <div class="Empty" [class.Filled]="MarkedCircle === 2">
+    <span [class.filled-text]="MarkedCircle === 2"> 2 </span>
   </div>
   <div class="Line-2"></div>
-  <div class="Empty">
-    <span> 3 </span>
+  <div class="Empty" [class.Filled]="MarkedCircle === 3">
+    <span [class.filled-text]="MarkedCircle === 3"> 3 </span>
   </div>
 </div>
