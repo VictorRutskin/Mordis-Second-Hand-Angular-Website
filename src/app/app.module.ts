@@ -26,6 +26,9 @@ import { MainPageTitle1Component } from './Components/Text-Components/main-page-
 import { MainPageTitle2Component } from './Components/Text-Components/main-page-title2/main-page-title2.component';
 import { ItemCouruselComponent } from './Components/Item-Courusel-Components/item-courusel/item-courusel.component';
 import { SingleCouruselItemComponent } from './Components/Item-Courusel-Components/single-courusel-item/single-courusel-item.component';
+import { AddProductPage1Component } from './Pages/add-product-page1/add-product-page1.component';
+import { AddProductPage2Component } from './Pages/add-product-page2/add-product-page2.component';
+import { AddProductPage3Component } from './Pages/add-product-page3/add-product-page3.component';
 
 @NgModule({
   declarations: [
@@ -52,13 +55,13 @@ import { SingleCouruselItemComponent } from './Components/Item-Courusel-Componen
     MainPageTitle1Component,
     MainPageTitle2Component,
     ItemCouruselComponent,
-    SingleCouruselItemComponent
+    SingleCouruselItemComponent,
+    AddProductPage1Component,
+    AddProductPage2Component,
+    AddProductPage3Component,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
