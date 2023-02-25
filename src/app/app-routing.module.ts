@@ -18,7 +18,7 @@ const routes: Routes = [
   { path: 'Furniture', component: FurniturePageComponent },
   { path: 'Other', component: OtherPageComponent },
   
-  { path: 'Item/:id', component: SingleItemPageComponent },
+  { path: 'item/:id', component: SingleItemPageComponent },
 
   { path: 'NewListing1', component: AddProductPage1Component },
   { path: 'NewListing2', component: AddProductPage2Component },
@@ -27,7 +27,7 @@ const routes: Routes = [
 
 
   // otherwise redirect to home
-  { path: '**', redirectTo: 'Home' },
+  // { path: '**', redirectTo: 'Home' },
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

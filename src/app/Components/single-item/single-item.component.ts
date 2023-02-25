@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { ItemService } from 'src/app/Services/item-service/item.service';
 import Item from 'src/Models/Item.model';
 
 @Component({
@@ -17,13 +18,14 @@ export class SingleItemComponent {
   // @Input() location = 'Afula';
   // @Input() publisher = 'Tomer';
 
+  @Input() itemId: string | undefined;
+
   item: Item | undefined;
 
-  constructor(private route: ActivatedRoute) { }
+
+  constructor(private itemService: ItemService) { }
 
   ngOnInit() {
-    const itemId = this.route.snapshot.paramMap.get('id');
-    // You can use this itemId to fetch the item data from your API or service
-    // and assign it to the 'item' property of this component
+    this.item = this.itemService.getItemById(this.itemId);
   }
 }
