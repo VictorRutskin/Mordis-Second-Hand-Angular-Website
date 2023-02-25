@@ -2,6 +2,8 @@ import { Component, Input } from '@angular/core';
 import { ItemService } from 'src/app/Services/item-service/item.service';
 import Contact from 'src/Models/Contact.model';
 import Item from 'src/Models/Item.model';
+import products from 'src/Models/ItemData.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-single-item',
@@ -17,6 +19,7 @@ export class SingleItemComponent {
   // @Input() date = '20/05';
   // @Input() location = 'Afula';
   // @Input() publisher = 'Tomer';
+  products: Item[] = products;
 
   myContact = new Contact('contact', 88888888, 'email');
   myItem = new Item(
@@ -37,7 +40,19 @@ export class SingleItemComponent {
 
   routerlink = '';
 
-  constructor(private itemService: ItemService) {}
+  constructor(private itemService: ItemService, private router: Router) {}
+
+
+  deleteHandler(item: Item): void {
+    const index = this.products.indexOf(item);
+    if (index !== -1) {
+      this.products.splice(index, 1);
+    }
+  }
+  duplicateHandler(item: Item) {
+    this.products.push({ ...item });
+    this.router.navigate(['/']);
+  }
 
   ngOnInit() {
     if (this.itemId) {

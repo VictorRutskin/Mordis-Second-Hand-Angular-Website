@@ -1,6 +1,10 @@
 <div class="container">
   <div class="image-box">
-    <img [src]="imageSrc" alt="No image src detected" [routerLink]="routerlink" />
+    <img
+      [src]="imageSrc"
+      alt="No image src detected"
+      [routerLink]="routerlink"
+    />
   </div>
   <div class="details-box">
     <span class="name">
@@ -18,7 +22,9 @@
     <span class="price">
       {{ price }}
     </span>
-    <span class="BUY"> BUY </span>
-    <span class="more-"> more > </span>
+    <a [routerLink]="routerlink">
+      <span class="BUY"> BUY </span>
+      <span class="more-"> more > </span>
+    </a>
   </div>
 </div>
