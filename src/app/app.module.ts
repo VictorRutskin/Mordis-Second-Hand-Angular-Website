@@ -36,6 +36,8 @@ import { FormContinueBTNComponent } from './Components/Buttons/form-continue-btn
 import { SmallTextTemplateComponent } from './Components/Text-Components/small-text-template/small-text-template.component';
 import { AddImagesFormComponent } from './Components/Form-Components/add-images-form/add-images-form.component';
 import { AddFinishPageComponent } from './Pages/add-finish-page/add-finish-page.component';
+import { SingleItemComponent } from './Components/single-item/single-item.component';
+import { ItemsListComponent } from './Components/items-list/items-list.component';
 
 @NgModule({
   declarations: [
@@ -72,6 +74,8 @@ import { AddFinishPageComponent } from './Pages/add-finish-page/add-finish-page.
     SmallTextTemplateComponent,
     AddImagesFormComponent,
     AddFinishPageComponent,
+    SingleItemComponent,
+    ItemsListComponent,
   ],
   imports: [BrowserModule, AppRoutingModule,FormsModule],
   providers: [],

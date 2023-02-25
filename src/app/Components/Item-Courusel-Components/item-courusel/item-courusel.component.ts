@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import Contact from 'src/Models/Contact.model';
 import Item from 'src/Models/Item.model';
 
 @Component({
@@ -7,6 +8,11 @@ import Item from 'src/Models/Item.model';
   styleUrls: ['./item-courusel.component.scss'],
 })
 export class ItemCouruselComponent {
+  Contact1: Contact = new Contact("Shay Eshel",555555555,"quennshay@gmail.com");
+  Contact2: Contact = new Contact("fella guy",666666666,"fellaoftheguy@gmail.com");
+  Contact3: Contact = new Contact("Tomer Shevach",77777777,"thetomerheuheu11@gmail.com");
+  Contact4: Contact = new Contact("Israel Israeli",888888888,"123iloveisrael123@gmail.com");
+
   products: Item[] = [
     new Item(
       'iPhone 13 pro',
@@ -14,10 +20,9 @@ export class ItemCouruselComponent {
       '../assets/Images/ItemsImages/Iphone.png',
       499,
       '12/02',
-      'Shay Eshel',
       'Afula',
       ['../assets/Images/ItemsImages/Iphone.png'],
-
+      this.Contact1,
     ),
     new Item(
       '  vans x nation...',
@@ -25,9 +30,9 @@ export class ItemCouruselComponent {
       '../assets/Images/ItemsImages/NationalShoes.png',
       40,
       '23/01',
-      'Tomer Shevach',
       'Afula',
       ['../assets/Images/ItemsImages/NationalShoes.png'],
+      this.Contact2,
     ),
     new Item(
       '  Vintage night...      ',
@@ -35,9 +40,9 @@ export class ItemCouruselComponent {
       '../assets/Images/ItemsImages/VintageTableOrSomething.png',
       85,
       '13/04',
-      'Elmory Grunt',
       'Bney Brak',
       ['../assets/Images/ItemsImages/VintageTableOrSomething.png'],
+      this.Contact3,
 
     ),
     new Item(
@@ -46,9 +51,9 @@ export class ItemCouruselComponent {
       '../assets/Images/ItemsImages/NationalShoes.png',
       120,
       '03/11',
-      'Israel Israeli',
       'Tel-Aviv',
       ['../assets/Images/ItemsImages/NationalShoes.png'],
+      this.Contact4,
 
     ),
   ];

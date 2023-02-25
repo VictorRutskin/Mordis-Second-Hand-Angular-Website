@@ -1,0 +1,124 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.image-box {
+    width: 235px;
+    height: 160px;
+    margin: 0 13px 0 0;
+    border-radius: 10px;
+    background-color: #c8ccc2;
+}
+.details-box{
+    width: 705px;
+    height: 160px;
+    margin: 0 0 0 13px;
+    border-radius: 10px;
+    background-color: #c8ccc2;
+}
+
+.name {
+    width: 393px;
+    height: 27px;
+    margin: 0 53px 10px 0;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #242928;
+  }
+
+  .description {
+    width: 492px;
+    height: 67px;
+    margin: 10px 28px 16px 0;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3c3c3c;
+  }
+
+  .date {
+    width: 53px;
+    height: 18px;
+    margin: 5px 1px 14px 0;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: rgba(36, 41, 40, 0.33);
+  }
+
+  .location {
+    width: 73px;
+    height: 23px;
+    margin: 17px 355px 2px 2.5px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #242928;
+  }
+
+  .price {
+    width: 46px;
+    height: 23px;
+    margin: 17px 28px 2px 53px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #242928;
+  }
+
+  .BUY {
+    width: 29px;
+    height: 18px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #e6ebe0;
+  }
+
+  .more- {
+    width: 38px;
+    height: 14px;
+    margin: 22px 0 6px 16px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #242928;
+  }
+  
