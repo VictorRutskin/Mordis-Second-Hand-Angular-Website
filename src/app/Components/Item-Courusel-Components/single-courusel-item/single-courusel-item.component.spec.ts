@@ -8,9 +8,8 @@ describe('SingleCouruselItemComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SingleCouruselItemComponent ]
-    })
-    .compileComponents();
+      declarations: [SingleCouruselItemComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(SingleCouruselItemComponent);
     component = fixture.componentInstance;

@@ -15,7 +15,6 @@ export class SingleItemPageComponent implements OnInit {
   ngOnInit() {
     this.route.paramMap.subscribe(params => {
       this.itemId = params.get('id')!;
-      // Call a service to fetch the item with this.itemId and update the component's properties
     });
   }
 }

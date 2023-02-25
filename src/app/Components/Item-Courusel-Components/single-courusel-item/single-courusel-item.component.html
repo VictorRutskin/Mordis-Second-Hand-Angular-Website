@@ -1,6 +1,6 @@
 <div class="item-frame">
   <div class="Image-Container">
-    <img [src]="Image" class="Image" [routerLink]="routerlink"/>
+    <img [src]="Image" class="Image" [routerLink]="routerlink" />
     <!-- <img [src]="Image" class="Image" [routerLink]="['/item', id]"/> -->
     <div class="Heart-Container">
       <img src="../assets/SVG's/heart-svgrepo-com.svg" class="Heart" />
@@ -13,9 +13,7 @@
   </div>
   <span class="price"> {{ Price }}$ </span>
   <button class="BUY-BTN" [routerLink]="routerlink">
-    <span class="BUY">
-      BUY
-    </span>
+    <span class="BUY"> BUY </span>
   </button>
   <span class="more" [routerLink]="routerlink"> More </span>
 </div>

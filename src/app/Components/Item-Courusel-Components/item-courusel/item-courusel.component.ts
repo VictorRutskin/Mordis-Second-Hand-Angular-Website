@@ -1,4 +1,4 @@
-import products  from 'src/Models/ItemData.model';
+import products from 'src/Models/ItemData.model';
 import { Component } from '@angular/core';
 import Contact from 'src/Models/Contact.model';
 import Item from 'src/Models/Item.model';

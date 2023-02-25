@@ -8,6 +8,7 @@ import Item from 'src/Models/Item.model';
   styleUrls: ['./single-courusel-item.component.scss'],
 })
 export class SingleCouruselItemComponent {
+
   item: Item | undefined;
 
   @Input() Title: string | undefined;
@@ -17,8 +18,7 @@ export class SingleCouruselItemComponent {
   @Input() PostDate: string | undefined;
   @Input() id: number | undefined;
 
-  @Input() itemId= "";
-
+  @Input() itemId = '';
 
   /// add future feature that it redirects to the category page //////////////////////////
   routerlink = '';
@@ -28,13 +28,11 @@ export class SingleCouruselItemComponent {
   ngOnInit() {
     this.routerlink = '/item/' + this.id;
 
-    
     if (this.item) {
       const item = this.itemService.getItemById(this.itemId);
       if (item) {
         this.item = item;
-      } 
-    } 
+      }
+    }
   }
-
 }
