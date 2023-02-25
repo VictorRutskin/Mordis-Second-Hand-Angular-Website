@@ -42,16 +42,15 @@ export class SingleItemComponent {
 
   constructor(private itemService: ItemService, private router: Router) {}
 
-
   deleteHandler(item: Item): void {
     const index = this.products.indexOf(item);
     if (index !== -1) {
       this.products.splice(index, 1);
     }
+    this.router.navigate(['/Home']);
   }
   duplicateHandler(item: Item) {
     this.products.push({ ...item });
-    this.router.navigate(['/']);
   }
 
   ngOnInit() {
