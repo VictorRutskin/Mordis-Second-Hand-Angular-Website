@@ -1,9 +1,14 @@
 .parent-container {
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-bottom: -30px;
-    margin-left: 100px;
+    margin-top: 80px;
+    position: relative;
+    width: 500px;
+    max-width: 500px;
+    margin: auto;
+    left: 50%;
+    margin-left: -650px;
   }
   
   .logo {
@@ -50,8 +55,7 @@
   .subtext{
     margin-top: 80px;
     position: relative;
-    width: 1000px;
-    max-width: 1000px;
+    max-width: 500px;
     margin: auto;
     left: 50%;
     margin-left: -500px;

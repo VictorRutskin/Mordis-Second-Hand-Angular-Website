@@ -38,6 +38,10 @@ import { AddImagesFormComponent } from './Components/Form-Components/add-images-
 import { AddFinishPageComponent } from './Pages/add-finish-page/add-finish-page.component';
 import { SingleItemComponent } from './Components/single-item/single-item.component';
 import { ItemsListComponent } from './Components/items-list/items-list.component';
+import { ClothingPageComponent } from './Pages/clothing-page/clothing-page.component';
+import { ElectronicsPageComponent } from './Pages/electronics-page/electronics-page.component';
+import { FurniturePageComponent } from './Pages/furniture-page/furniture-page.component';
+import { OtherPageComponent } from './Pages/other-page/other-page.component';
 
 @NgModule({
   declarations: [
@@ -76,6 +80,10 @@ import { ItemsListComponent } from './Components/items-list/items-list.component
     AddFinishPageComponent,
     SingleItemComponent,
     ItemsListComponent,
+    ClothingPageComponent,
+    ElectronicsPageComponent,
+    FurniturePageComponent,
+    OtherPageComponent,
   ],
   imports: [BrowserModule, AppRoutingModule,FormsModule],
   providers: [],

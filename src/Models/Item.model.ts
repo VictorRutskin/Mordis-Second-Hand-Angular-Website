@@ -7,6 +7,8 @@ class Item {
   Price: number;
   PostDate: string;
   Location:string;
+  Category:String;
+  Condition:String;
   Images: string[];
   ID: number;
   Contact: Contact;
@@ -18,6 +20,8 @@ class Item {
     price: number,
     postDate: string,
     location: string,
+    category: string,
+    condition: string,
     images: string[],
     contact: Contact,
   ) {
@@ -29,6 +33,8 @@ class Item {
     this.Location = location;    
     this.Images = images;
     this.Contact = contact;
+    this.Category = category;
+    this.Condition = condition;
 
     const randomNumber = Math.floor(Math.random() * (99999999999999999999 - 10000000000000000000 + 1)) + 10000000000000000000;
     this.ID =randomNumber;
