@@ -1,3 +1,4 @@
+import { SingleItemPageComponent } from './Pages/single-item-page/single-item-page.component';
 import { OtherPageComponent } from './Pages/other-page/other-page.component';
 import { FurniturePageComponent } from './Pages/furniture-page/furniture-page.component';
 import { ElectronicsPageComponent } from './Pages/electronics-page/electronics-page.component';
@@ -16,6 +17,9 @@ const routes: Routes = [
   { path: 'Electronics', component: ElectronicsPageComponent },
   { path: 'Furniture', component: FurniturePageComponent },
   { path: 'Other', component: OtherPageComponent },
+  
+  { path: 'Item/:id', component: SingleItemPageComponent },
+
   { path: 'NewListing1', component: AddProductPage1Component },
   { path: 'NewListing2', component: AddProductPage2Component },
   { path: 'NewListing3', component: AddProductPage3Component },
