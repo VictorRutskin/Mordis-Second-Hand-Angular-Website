@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import Item from 'src/Models/Item.model';
+import products  from 'src/Models/ItemData.model';
 
 @Component({
   selector: 'app-clothing-page',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./clothing-page.component.scss']
 })
 export class ClothingPageComponent {
+  items: Item[] = products;
 
 }
