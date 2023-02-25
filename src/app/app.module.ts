@@ -35,6 +35,7 @@ import { FormsModule } from '@angular/forms';
 import { FormContinueBTNComponent } from './Components/Buttons/form-continue-btn/form-continue-btn.component';
 import { SmallTextTemplateComponent } from './Components/Text-Components/small-text-template/small-text-template.component';
 import { AddImagesFormComponent } from './Components/Form-Components/add-images-form/add-images-form.component';
+import { AddFinishPageComponent } from './Pages/add-finish-page/add-finish-page.component';
 
 @NgModule({
   declarations: [
@@ -70,6 +71,7 @@ import { AddImagesFormComponent } from './Components/Form-Components/add-images-
     FormContinueBTNComponent,
     SmallTextTemplateComponent,
     AddImagesFormComponent,
+    AddFinishPageComponent,
   ],
   imports: [BrowserModule, AppRoutingModule,FormsModule],
   providers: [],

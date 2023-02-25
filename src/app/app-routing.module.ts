@@ -1,3 +1,4 @@
+import { AddFinishPageComponent } from './Pages/add-finish-page/add-finish-page.component';
 import { MainPageComponent } from './Pages/main-page/main-page.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -10,6 +11,7 @@ const routes: Routes = [
   { path: 'NewListing1', component: AddProductPage1Component },
   { path: 'NewListing2', component: AddProductPage2Component },
   { path: 'NewListing3', component: AddProductPage3Component },
+  { path: 'NewListingFinish', component: AddFinishPageComponent},
 
 
   // otherwise redirect to home
