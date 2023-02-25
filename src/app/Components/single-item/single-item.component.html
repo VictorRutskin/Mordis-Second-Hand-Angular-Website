@@ -1,41 +1,44 @@
 <div class="god-container">
   <div class="left-container">
     <div class="image-container">
-      <img [src]="imageSrc" alt="No Image Found" />
+      <img [src]="item?.Image" alt="No Image Found" />
     </div>
     <div class="title-container">
       <app-main-page-title2 text="About the product"></app-main-page-title2>
     </div>
     <div class="smalltext-container">
-      <app-small-text-template [Text]="descText"></app-small-text-template>
+      <app-small-text-template Text="{{item?.Desc}}"></app-small-text-template>
     </div>
   </div>
   <div class="right-container">
     <div class="details-box">
-        <span class="Title">
-            {{title}}
-          </span>
-          <div>
-            <table>
-                <tr>
-                  <th>{{price}}$</th>
-                  <th>{{date}}</th>
-                  <th>{{location}}</th>
-                </tr>
-                <tr>
-                  <td>price</td>
-                  <td>date</td>
-                  <td>location</td>
-                </tr>
-              </table>
-          </div>
+      <span class="Title">
+        {{ item?.Title }}
+      </span>
+      <div>
+        <table>
+          <tr>
+            <th>{{ item?.Price }}$</th>
+            <th>{{ item?.PostDate }}</th>
+            <th>{{ item?.Location }}</th>
+          </tr>
+          <tr>
+            <td>price</td>
+            <td>date</td>
+            <td>location</td>
+          </tr>
+        </table>
+      </div>
     </div>
     <div class="published-by-container">
-        <div class="smalltext-container">
-            <app-small-text-template Text="Published by"></app-small-text-template>
-            <app-small-text-template [Text]="publisher"></app-small-text-template>
-          </div>
-          <app-form-continue-btn text="CONTACT SELLER" color="green"></app-form-continue-btn>
+      <div class="smalltext-container">
+        <app-small-text-template Text="Published by"></app-small-text-template>
+        <app-small-text-template Text="{{item?.Contact?.Name}}"></app-small-text-template>
+      </div>
+      <app-form-continue-btn
+        text="CONTACT SELLER"
+        color="green"
+      ></app-form-continue-btn>
     </div>
   </div>
 </div>

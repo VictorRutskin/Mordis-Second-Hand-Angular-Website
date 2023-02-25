@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './Components/Nav-bar-Components/nav-bar/nav-bar.component';
@@ -44,6 +43,7 @@ import { FurniturePageComponent } from './Pages/furniture-page/furniture-page.co
 import { OtherPageComponent } from './Pages/other-page/other-page.component';
 import { FilterCategoryPipe } from './Pipes/Filter-Category-Pipe/filter-category.pipe';
 import { ItemsTemplatePageComponent } from './Pages/items-template-page/items-template-page.component';
+import { SingleItemPageComponent } from './Pages/single-item-page/single-item-page.component';
 
 @NgModule({
   declarations: [
@@ -88,6 +88,7 @@ import { ItemsTemplatePageComponent } from './Pages/items-template-page/items-te
     OtherPageComponent,
     FilterCategoryPipe,
     ItemsTemplatePageComponent,
+    SingleItemPageComponent,
   ],
   imports: [BrowserModule, AppRoutingModule,FormsModule],
   providers: [],
