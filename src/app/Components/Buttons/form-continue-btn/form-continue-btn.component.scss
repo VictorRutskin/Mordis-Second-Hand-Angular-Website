@@ -2,6 +2,7 @@ button {
   width: 300px;
   height: 70px;
   margin: 50px auto;
+  margin-right: 50px;
   border-radius: 10px;
   box-shadow: 0 0 10px 0 #aeb2aa;
   background-color: #292d32;
@@ -12,11 +13,21 @@ button {
   height: 28px;
   font-family: Roboto;
   font-size: 24px;
-  font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
   color: #fff;
+  font-weight: 800;
 }
+
+.white-button{
+  border-radius: 12px;
+  border: solid 4px #292d32;
+  background-color: #e6ebe0;
+}
+.white-BTN{
+  color: #292d32;
+}
+

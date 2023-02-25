@@ -1,5 +1,5 @@
-<button> 
-    <span class="BTN">
-        {{text}}
-      </span>
+<button [class.white-button]="color === 'white'">
+  <span class="BTN" [class.white-BTN]="color === 'white'">
+    {{ text }}
+  </span>
 </button>

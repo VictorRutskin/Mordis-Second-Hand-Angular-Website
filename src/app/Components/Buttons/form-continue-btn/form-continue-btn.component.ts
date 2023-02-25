@@ -7,4 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class FormContinueBTNComponent {
 @Input() text="CONTINUE";
+@Input() color="";
 }
