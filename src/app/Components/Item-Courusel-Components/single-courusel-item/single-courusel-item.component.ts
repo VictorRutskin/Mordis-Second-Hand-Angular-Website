@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { ItemService } from 'src/app/Services/item-service/item.service';
 import Item from 'src/Models/Item.model';
 
 @Component({
@@ -16,9 +17,24 @@ export class SingleCouruselItemComponent {
   @Input() PostDate: string | undefined;
   @Input() id: number | undefined;
 
-  routerlink = '/Clothing';
+  @Input() itemId= "";
+
+
+  /// add future feature that it redirects to the category page //////////////////////////
+  routerlink = '';
+
+  constructor(private itemService: ItemService) {}
 
   ngOnInit() {
     this.routerlink = '/item/' + this.id;
+
+    
+    if (this.item) {
+      const item = this.itemService.getItemById(this.itemId);
+      if (item) {
+        this.item = item;
+      } 
+    } 
   }
+
 }

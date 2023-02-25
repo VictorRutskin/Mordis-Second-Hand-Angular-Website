@@ -14,16 +14,16 @@ class Item {
   Contact: Contact;
 
   constructor(
-    title: string,
-    desc: string,
-    image: string,
-    price: number,
-    postDate: string,
-    location: string,
-    category: string,
-    condition: string,
-    images: string[],
-    contact: Contact,
+    title = '',
+    desc = '',
+    image = '',
+    price = 0,
+    postDate = '',
+    location = '',
+    category = '',
+    condition = '',
+    images: string[] = [],
+    contact: Contact = new Contact("",0,""),
   ) {
     this.Title = title;
     this.Desc = desc;
@@ -37,8 +37,9 @@ class Item {
     this.Condition = condition;
 
     const randomNumber = Math.floor(Math.random() * (99999999999999999999 - 10000000000000000000 + 1)) + 10000000000000000000;
-    this.ID =randomNumber;
+    this.ID = randomNumber;
   }
+
 }
 
 export default Item;

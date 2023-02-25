@@ -7,9 +7,10 @@ import products from 'src/Models/ItemData.model';
   providedIn: 'root'
 })
 export class ItemService {
-  getItemById(itemId: string | undefined): Item | undefined {
-    throw new Error('Method not implemented.');
+  getItemById(itemId: string): Item | undefined {
+    return this.items.find(item => item.ID === Number(itemId));
   }
+  
   items: Item[] = products;
 
   constructor() { }

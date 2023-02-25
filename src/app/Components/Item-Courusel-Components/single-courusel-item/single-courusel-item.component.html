@@ -12,10 +12,10 @@
     <span class="description"> {{ Desc }} </span>
   </div>
   <span class="price"> {{ Price }}$ </span>
-  <button class="BUY-BTN">
+  <button class="BUY-BTN" [routerLink]="routerlink">
     <span class="BUY">
       BUY
     </span>
   </button>
-  <span class="more"> More </span>
+  <span class="more" [routerLink]="routerlink"> More </span>
 </div>
