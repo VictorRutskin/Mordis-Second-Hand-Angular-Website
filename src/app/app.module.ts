@@ -42,6 +42,8 @@ import { ClothingPageComponent } from './Pages/clothing-page/clothing-page.compo
 import { ElectronicsPageComponent } from './Pages/electronics-page/electronics-page.component';
 import { FurniturePageComponent } from './Pages/furniture-page/furniture-page.component';
 import { OtherPageComponent } from './Pages/other-page/other-page.component';
+import { FilterCategoryPipe } from './Pipes/Filter-Category-Pipe/filter-category.pipe';
+import { ItemsTemplatePageComponent } from './Pages/items-template-page/items-template-page.component';
 
 @NgModule({
   declarations: [
@@ -84,6 +86,8 @@ import { OtherPageComponent } from './Pages/other-page/other-page.component';
     ElectronicsPageComponent,
     FurniturePageComponent,
     OtherPageComponent,
+    FilterCategoryPipe,
+    ItemsTemplatePageComponent,
   ],
   imports: [BrowserModule, AppRoutingModule,FormsModule],
   providers: [],

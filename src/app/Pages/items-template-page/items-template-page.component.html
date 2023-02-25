@@ -1,0 +1,17 @@
+<div class="god-container">
+    <div class="title-container">
+      <span class="title"> {{category}} </span>
+    </div>
+    <div *ngFor="let item of items | categoryFilter: category" class="items-container">
+        <app-items-list
+        [imageSrc]="item.Image"
+        [name]="item.Title"
+        [description]="item.Desc"
+        [date]="item.PostDate"
+        [location]="item.Location"
+        [price]="item.Price"
+      >
+      </app-items-list>
+    </div>
+  </div>
+  
