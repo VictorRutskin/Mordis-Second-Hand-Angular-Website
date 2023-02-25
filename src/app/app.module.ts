@@ -30,10 +30,11 @@ import { AddProductPage1Component } from './Pages/add-product-page1/add-product-
 import { AddProductPage2Component } from './Pages/add-product-page2/add-product-page2.component';
 import { AddProductPage3Component } from './Pages/add-product-page3/add-product-page3.component';
 import { ProgressCirclesComponent } from './Components/progress-circles/progress-circles.component';
-import { FormComponent } from './Components/form/form.component';
+import { FormComponent } from './Components/Form-Components/form/form.component';
 import { FormsModule } from '@angular/forms';
 import { FormContinueBTNComponent } from './Components/Buttons/form-continue-btn/form-continue-btn.component';
 import { SmallTextTemplateComponent } from './Components/Text-Components/small-text-template/small-text-template.component';
+import { AddImagesFormComponent } from './Components/Form-Components/add-images-form/add-images-form.component';
 
 @NgModule({
   declarations: [
@@ -68,6 +69,7 @@ import { SmallTextTemplateComponent } from './Components/Text-Components/small-t
     FormComponent,
     FormContinueBTNComponent,
     SmallTextTemplateComponent,
+    AddImagesFormComponent,
   ],
   imports: [BrowserModule, AppRoutingModule,FormsModule],
   providers: [],
