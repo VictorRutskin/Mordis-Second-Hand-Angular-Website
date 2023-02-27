@@ -18,13 +18,15 @@ export class AddProductPage2Component {
 
   ngOnInit() {
     this.route.queryParams.subscribe((params) => {
-      this.data = params['data'];
+      this.data = params['formData'];
     });
   }
 
   submitForm() {
     // Navigate to the next page and pass the form data as query parameters
-    this.router.navigate(['/NewListing3'], {queryParams: { formData: JSON.stringify(this.data)},});
+    this.router.navigate(['/NewListing3'], {
+      queryParams: { formData: this.data },
+    });
     // this.router.navigate(['/NewListing3'], {queryParams: { formData1: JSON.stringify(this.data),formData2: JSON.stringify(this.userForm) },});
   }
 }
