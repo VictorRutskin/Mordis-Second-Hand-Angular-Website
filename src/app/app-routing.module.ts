@@ -25,9 +25,13 @@ const routes: Routes = [
   { path: 'NewListing3', component: AddProductPage3Component },
   { path: 'NewListingFinish', component: AddFinishPageComponent},
 
+  { path: 'NewListing1/:data', component: AddProductPage1Component },
+  { path: 'NewListing2/:data', component: AddProductPage2Component },
+  { path: 'NewListing3/:data', component: AddProductPage3Component },
+
 
   // otherwise redirect to home
-  // { path: '**', redirectTo: 'Home' },
+  { path: '**', redirectTo: 'Home' },
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

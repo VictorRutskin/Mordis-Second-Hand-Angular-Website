@@ -32,9 +32,23 @@ h1 {
   padding: 15px 16.9px 15.6px;
   margin-left: 50px;
   border-radius: 7.5px;
-  border: solid 5.6px $third-color;
+  border: solid 7.6px $third-color;
   background-color: $primary-color;
   font-size: 50px;
   color: $Default-Text-Color;
 }
 
+.input.invalid {
+  background: rgba(255, 0, 0, 0.3);
+  border: solid 7.6px $failed-color;
+  color: $failed-color;
+}
+
+.input.valid  {
+  border-color: green;
+  color: $success-color;
+}
+
+.input.empty {
+  border-color: $third-color;
+}

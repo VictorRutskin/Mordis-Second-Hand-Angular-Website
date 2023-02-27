@@ -1,5 +1,6 @@
 <h1>{{ title }}</h1>
 <div *ngFor="let field of fields">
-  <p class="Text">{{ field }}:</p>
-    <input placeholder="{{ field }}" class="input" type="text" [(ngModel)]="formData[field]" />
+  <p class="Text">{{ field.name }}:</p>
+  <input placeholder="{{ field.name }}" class="input" type="text" [(ngModel)]="formData[field.name]"
+    [ngClass]="{ 'invalid': !validateField(field.name), 'valid': validateField(field.name), 'empty': !formData[field.name] }" />
 </div>

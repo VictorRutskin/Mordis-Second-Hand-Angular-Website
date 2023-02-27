@@ -17,19 +17,13 @@
         <!-- app.component.html -->
         <app-form
           title="Tell us about your item"
-          [fields]="[
-            'Name',
-            'Category',
-            'Condition',
-            'Price',
-            'Location',
-            'Description'
-          ]"
+          [fields]="fieldsData"
           [formData]="userForm"
         >
         </app-form>
       </div>  
 </div>
 <div class="button">
-    <app-form-continue-btn> </app-form-continue-btn>
-  </div>
+  <app-form-continue-btn (click)="submitForm()"> </app-form-continue-btn>
+</div>
+
