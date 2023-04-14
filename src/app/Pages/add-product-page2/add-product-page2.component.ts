@@ -29,4 +29,5 @@ export class AddProductPage2Component {
     });
     // this.router.navigate(['/NewListing3'], {queryParams: { formData1: JSON.stringify(this.data),formData2: JSON.stringify(this.userForm) },});
   }
+  
 }

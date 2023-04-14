@@ -1,6 +1,6 @@
 <div class="item-frame-wheel">
   <app-single-courusel-item
-    *ngFor="let product of products"
+    *ngFor="let product of products.slice(0, 4)"
     [Title]="product.Title"
     [Desc]="product.Desc"
     [Image]="product.Image"

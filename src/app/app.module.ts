@@ -30,7 +30,7 @@ import { AddProductPage2Component } from './Pages/add-product-page2/add-product-
 import { AddProductPage3Component } from './Pages/add-product-page3/add-product-page3.component';
 import { ProgressCirclesComponent } from './Components/progress-circles/progress-circles.component';
 import { FormComponent } from './Components/Form-Components/form/form.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FormContinueBTNComponent } from './Components/Buttons/form-continue-btn/form-continue-btn.component';
 import { SmallTextTemplateComponent } from './Components/Text-Components/small-text-template/small-text-template.component';
 import { AddImagesFormComponent } from './Components/Form-Components/add-images-form/add-images-form.component';
@@ -47,6 +47,7 @@ import { SingleItemPageComponent } from './Pages/single-item-page/single-item-pa
 
 @NgModule({
   declarations: [
+    AddProductPage1Component ,
     AppComponent,
     NavBarComponent,
     NavBarLogoComponent,
@@ -90,7 +91,7 @@ import { SingleItemPageComponent } from './Pages/single-item-page/single-item-pa
     ItemsTemplatePageComponent,
     SingleItemPageComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule,FormsModule],
+  imports: [BrowserModule, AppRoutingModule,FormsModule,ReactiveFormsModule ],
   providers: [],
   bootstrap: [AppComponent],
 })

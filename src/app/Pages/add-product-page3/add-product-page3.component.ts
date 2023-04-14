@@ -20,7 +20,9 @@ export class AddProductPage3Component {
     Phone: 0,
     Email: ''
   };
-    data: any = {};
+  data: any = {};
+
+  mergedObject = {};
 
   fieldsData = [
     { name: 'Name', pattern: /^[A-Za-z\s]+$/ },
@@ -32,7 +34,7 @@ export class AddProductPage3Component {
 
   ngOnInit() {
     this.route.queryParams.subscribe((params) => {
-      this.data = params['data'];
+      this.data = params['formData'];
     });
   }
 
@@ -43,17 +45,22 @@ export class AddProductPage3Component {
       this.userForm['Phone'],
       this.userForm['Email']
     );
+    const parsedData = JSON.parse(this.data);
+
+    const currentDate = new Date();
+    const month = currentDate.getMonth() + 1; // Note: Month starts from 0, so add 1 to get the correct month (e.g., January is 0)
+    const day = currentDate.getDate(); // e.g., 14
 
     const product: Item= 
       new Item(
-        'iPhone 13 pro',
-        'Selling my iPhone, brand new conditi...',
+        parsedData.Name,
+        parsedData.Description,
         '../assets/Images/ItemsImages/Iphone.png',
-        499,
-        '12/02',
-        'Afula',
-        'electronics',
-        'New',
+        parseInt(parsedData.Price),
+        day.toString()+"/"+month.toString(),
+        parsedData.Location,
+        parsedData.Category,
+        parsedData.Condition,
         ['../assets/Images/ItemsImages/Iphone.png'],
         ContactData
               )   ;
@@ -66,18 +73,3 @@ export class AddProductPage3Component {
     //redirect to home/item page
   }
 }
-
-
-// (
-//   title = '',
-//   desc = '',
-//   image = '',
-//   price = 0,
-//   postDate = '',
-//   location = '',
-//   category = '',
-//   condition = '',
-//   images: string[] = [],
-//   contact: Contact = new Contact('', 0, ''),
-//   id = 0
-// ) 
